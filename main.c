@@ -6,7 +6,7 @@ int main(void)
     int a;
     int b;
     int c;
-    char x,
+    char x[c],
     scanf("%d", &n);
     a = n%3;
     b = n%5;
@@ -18,7 +18,7 @@ int main(void)
     }
     else if (n=0);
    { 
-     printf("No")
+     printf("No");
    }
     else
 {
