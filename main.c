@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
@@ -6,7 +7,8 @@ int main(void)
     int a;
     int b;
     int c;
-    char x[c],
+    char x[16];
+    x[0] ='\0';
     scanf("%d", &n);
     a = n%3;
     b = n%5;
@@ -16,29 +18,30 @@ int main(void)
     {
      printf("Error");
     }
-    else if (n=0);
+    else if (n==0)
    { 
      printf("No");
    }
-    else
+    else if (n<=0)
 {
-    if (a=0)
+    if (a==0)
     {
-      x = Up;
+      strcat(x, "Up");
     }
-    if (b=0)
+    if (b==0)
     {
-      x = x + "Go"; 
+      strcat(x, "GO");
     }
-    if (c=0)
+    if (c==0)
     {
-      x = x +"!!";
+      strcat(x, "!!");
     }
-    else
+    if (!(a==0||b==0||c==0))
     {
-      x = NG;
+      strcat(x, "NG");
+      printf(x);
     }
-    printf("x",x);
+    printf(x);
 }
     return 0;
 }
