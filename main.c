@@ -16,13 +16,15 @@ int main(void)
     /* TODO: 課題0508 */
     if (n<0)
     {
-     printf("Error");
+     strcat(x,"Error");
+     printf("%s",x);
     }
     else if (n==0)
    { 
-     printf("No");
+     strcat(x,"No");
+     printf("%s",x);
    }
-    else if (n<=0)
+    else 
 {
     if (a==0)
     {
@@ -39,9 +41,8 @@ int main(void)
     if (!(a==0||b==0||c==0))
     {
       strcat(x, "NG");
-      printf(x);
     }
-    printf(x);
+    printf("%s",x);
 }
     return 0;
 }
