@@ -40,7 +40,7 @@ int main(void)
     }
     if (!(a==0||b==0||c==0))
     {
-      strcat(x, "NG");
+      strcat(x, "No");
     }
     printf("%s",x);
 }
