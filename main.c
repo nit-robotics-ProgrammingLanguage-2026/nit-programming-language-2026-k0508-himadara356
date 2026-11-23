@@ -32,7 +32,7 @@ int main(void)
     }
     if (b==0)
     {
-      strcat(x, "GO");
+      strcat(x, "Go");
     }
     if (c==0)
     {
